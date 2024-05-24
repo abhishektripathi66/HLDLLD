@@ -10,7 +10,10 @@ public class Main {
         mrc.pressButton("true");
         mrc.setCommand(new TurnOffACCommand(ac));
         mrc.pressButton("false");
+        mrc.undo();
         mrc.setCommand(new SetTemperatureCommand(ac));
         mrc.pressButton("40");
+        mrc.undo();
+        mrc.undo();
     }
 }

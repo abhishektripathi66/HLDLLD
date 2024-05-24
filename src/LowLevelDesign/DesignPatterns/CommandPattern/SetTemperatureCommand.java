@@ -11,5 +11,9 @@ public class SetTemperatureCommand implements ICommand {
     public void execute(String Value) {
         ac.settemperature(Integer.parseInt(Value));
     }
+    @Override
+    public void undo(String value) {
+        ac.settemperature(Integer.parseInt(value));
+    }
     
 }
