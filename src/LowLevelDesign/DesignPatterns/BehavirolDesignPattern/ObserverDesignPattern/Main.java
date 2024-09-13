@@ -20,6 +20,8 @@ public class Main {
         stockObeservable.add(observer2);
         stockObeservable.add(observer3);
         stockObeservable.setStockCount(10);
+        stockObeservable.setStockCount(-10);
+        stockObeservable.setStockCount(100);
     }
     
 }
