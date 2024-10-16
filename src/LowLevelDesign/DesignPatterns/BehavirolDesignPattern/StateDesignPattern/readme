@@ -1,0 +1,7 @@
+what is state design pattern?
+if a product has different states then we will create a interface for the state and implement it for different states.to define the operations that can be done for a product.
+
+its used in the vending machine, like getting coffee or pepsi or coke.
+if we have to design a system which majorly depends on the state of the system to perform the operations then we can use this.
+
+like design the operations of a TV.
